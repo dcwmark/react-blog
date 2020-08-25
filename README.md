@@ -16,3 +16,23 @@ Added to package.json
         "dev": "concurrently \"npm start\" \"npm run json-server",
     ...
 ```
+
+---
+
+Before any other changes:
+
+> npm run dev
+
+json-server would have created db.json
+
+Browser > localhost:5000/posts
+
+```json
+[
+  {
+    "id": 1,
+    "title": "json-server",
+    "author": "typicode"
+  }
+]
+```
